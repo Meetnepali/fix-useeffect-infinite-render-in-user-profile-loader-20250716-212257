@@ -1,0 +1,20 @@
+.app {
+  font-family: sans-serif;
+  min-height: 100vh;
+  transition: background 0.2s, color 0.2s;
+}
+
+.app.light {
+  background: #f5f5f5;
+  color: #181818;
+}
+
+.app.dark {
+  background: #252525;
+  color: #e2e2e2;
+}
+
+.app-header {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
