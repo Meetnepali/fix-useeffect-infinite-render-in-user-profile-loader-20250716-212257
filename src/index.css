@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #222;
+  transition: background 0.2s, color 0.2s;
+}
+
+html, body, #root {
+  height: 100%;
+}
